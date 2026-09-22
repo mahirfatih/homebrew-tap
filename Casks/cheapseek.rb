@@ -7,7 +7,7 @@ cask "cheapseek" do
   desc "Menu bar app that shows when the DeepSeek API is off-peak"
   homepage "https://github.com/mahirfatih/cheapseek"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "CheapSeek.app"
 
