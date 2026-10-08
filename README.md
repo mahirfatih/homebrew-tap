@@ -28,3 +28,12 @@ Or upgrade:
 ```sh
 brew upgrade --cask cheapseek
 ```
+
+## Validating the cask
+
+```sh
+brew tap mahirfatih/tap
+brew audit --cask cheapseek
+brew style --cask cheapseek
+brew info --cask cheapseek
+```
