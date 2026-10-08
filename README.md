@@ -14,3 +14,17 @@ First, add the tap (optional — Homebrew will do this automatically on install)
 
 ```sh
 brew tap mahirfatih/tap
+brew trust --tap mahirfatih/tap
+```
+
+Then install a cask:
+
+```sh
+brew install --cask mahirfatih/tap/cheapseek
+```
+
+Or upgrade:
+
+```sh
+brew upgrade --cask cheapseek
+```
